@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.lwjgl.input.Mouse"/>
+<fullyQualifiedTypeName name="network.Connection"/>
+<fullyQualifiedTypeName name="water.WaterFrameBuffers"/>
+<fullyQualifiedTypeName name="org.lwjgl.util.vector.Vector3f"/>
+<fullyQualifiedTypeName name="entities.Player"/>
+<fullyQualifiedTypeName name="renderEngine.DisplayManager"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="particles.ParticleMaster"/>
+<fullyQualifiedTypeName name="particles.ParticleSystem"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+<fullyQualifiedTypeName name="org.lwjgl.util.Timer"/>
+<fullyQualifiedTypeName name="entities.Entity"/>
+<fullyQualifiedTypeName name="entities.ThirdPersonCamera"/>
+<fullyQualifiedTypeName name="entities.Camera"/>
+<fullyQualifiedTypeName name="java.awt.MouseInfo"/>
+<fullyQualifiedTypeName name="java.awt.event.InputEvent"/>
+<fullyQualifiedTypeName name="renderEngine.OBJLoader"/>
+<fullyQualifiedTypeName name="models.TexturedModel"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.GL13"/>
+<fullyQualifiedTypeName name="renderEngine.MasterRenderer"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.GLContext"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.EXTTextureFilterAnisotropic"/>
+<fullyQualifiedTypeName name="toolbox.Vector"/>
+<fullyQualifiedTypeName name="entities.AABB"/>
+<fullyQualifiedTypeName name="toolbox.CollisionLibrary"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>
