@@ -13,7 +13,6 @@ import shaders.ShaderProgram;
 public class NormalMappingShader extends ShaderProgram {
 
 	private static final int MAX_LIGHTS = 4;
-
 	private static final String VERTEX_FILE = "res/shaders/normalMapVShader.glsl";
 	private static final String FRAGMENT_FILE = "res/shaders/normalMapFShader.glsl";
 
@@ -34,6 +33,10 @@ public class NormalMappingShader extends ShaderProgram {
 
 	public NormalMappingShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
+	}
+	
+	public NormalMappingShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
 	}
 
 	@Override

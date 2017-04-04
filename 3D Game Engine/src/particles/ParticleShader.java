@@ -19,6 +19,10 @@ public class ParticleShader extends ShaderProgram {
 	public ParticleShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	public ParticleShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	@Override
 	protected void getAllUniformLocations() {

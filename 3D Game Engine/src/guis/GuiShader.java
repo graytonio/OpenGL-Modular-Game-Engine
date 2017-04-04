@@ -14,6 +14,10 @@ public class GuiShader extends ShaderProgram {
 	public GuiShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	public GuiShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	public void loadTransformation(Matrix4f matrix) {
 		super.loadMatrix(location_transformationMatrix, matrix);

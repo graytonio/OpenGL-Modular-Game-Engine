@@ -32,7 +32,7 @@ public class WaterRenderer {
 	private int dudvTexture;
 	private int normalMap;
 
-	public WaterRenderer(Loader loader, WaterShader shader, Matrix4f projectionMatrix, WaterFrameBuffers fbos) {
+	public WaterRenderer(Loader loader, WaterShader shader, Matrix4f projectionMatrix, WaterFrameBuffers fbos) {	//TODO: Create custom shader constructor
 		this.shader = shader;
 		this.fbos = fbos;
 		dudvTexture = loader.loadTexture(DUDV_MAP);

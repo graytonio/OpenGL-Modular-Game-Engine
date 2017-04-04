@@ -15,7 +15,7 @@ public class FontRenderer {
 
 	private FontShader shader;
 
-	public FontRenderer() {
+	public FontRenderer() {	//TODO: Create custom shader constructor
 		shader = new FontShader();
 	}
 

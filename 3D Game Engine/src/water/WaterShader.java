@@ -28,6 +28,10 @@ public class WaterShader extends ShaderProgram {
 	public WaterShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	public WaterShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	@Override
 	protected void bindAttributes() {

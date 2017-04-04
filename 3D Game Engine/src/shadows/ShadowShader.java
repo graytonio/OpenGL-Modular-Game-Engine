@@ -14,6 +14,10 @@ public class ShadowShader extends ShaderProgram {
 	protected ShadowShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	protected ShadowShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	@Override
 	protected void getAllUniformLocations() {

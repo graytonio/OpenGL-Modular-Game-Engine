@@ -22,7 +22,7 @@ public class ParticleRenderer {
 	private RawModel quad;
 	private ParticleShader shader;
 
-	protected ParticleRenderer(Loader loader, Matrix4f projectionMatrix){
+	protected ParticleRenderer(Loader loader, Matrix4f projectionMatrix){	//TODO: Create custom shader constructor
 		quad = loader.loadToVAO(VERTICES, 2);
 		shader = new ParticleShader();
 		shader.start();

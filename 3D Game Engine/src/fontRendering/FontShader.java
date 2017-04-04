@@ -16,6 +16,10 @@ public class FontShader extends ShaderProgram {
 	public FontShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	public FontShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	protected void getAllUniformLocations() {
 		location_colour = super.getUniformLocation("colour");

@@ -27,6 +27,10 @@ public class SkyboxShader extends ShaderProgram {
 	public SkyboxShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	public SkyboxShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	public void loadProjectionMatrix(Matrix4f matrix) {
 		super.loadMatrix(location_projectionMatrix, matrix);

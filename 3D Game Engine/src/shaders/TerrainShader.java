@@ -38,6 +38,10 @@ public class TerrainShader extends ShaderProgram {
 	public TerrainShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	public TerrainShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	@Override
 	protected void bindAttributes() {

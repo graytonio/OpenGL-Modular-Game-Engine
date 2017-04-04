@@ -35,6 +35,10 @@ public class StaticShader extends ShaderProgram {
 	public StaticShader() {
 		super(VERTEX_FILE, FRAGMENT_FILE);
 	}
+	
+	public StaticShader(String vertexFile, String fragmentFile){
+		super(vertexFile, fragmentFile);
+	}
 
 	@Override
 	protected void bindAttributes() {

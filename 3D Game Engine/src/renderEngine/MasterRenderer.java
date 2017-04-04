@@ -34,11 +34,11 @@ public class MasterRenderer {
 
 	private Matrix4f projectionMatrix;
 
-	private StaticShader shader = new StaticShader();
+	private StaticShader shader = new StaticShader();	//TODO: Create custom shader constructor
 	private EntityRenderer renderer;
 
 	private TerrainRenderer terrainRenderer;
-	private TerrainShader terrainShader = new TerrainShader();
+	private TerrainShader terrainShader = new TerrainShader();	//TODO: Create custom shader constructor
 
 	private NormalMappingRenderer normalMapRenderer;
 
