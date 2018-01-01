@@ -12,7 +12,7 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/jars/PNGDecoder.jar"/>
 	<classpathentry kind="lib" path="lib/jars/slick-util.jar"/>
-	<classpathentry kind="lib" path="C:/Users/g-bud/Documents/Java APIs/jars/BaseEngine.jar"/>
-	<classpathentry kind="lib" path="C:/Users/g-bud/Documents/Java APIs/jars/GUIEngine.jar"/>
+	<classpathentry kind="lib" path="lib/jars/BaseEngine.jar"/>
+	<classpathentry kind="lib" path="lib/jars/GUIEngine.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -27,7 +27,7 @@ public class MainGameLoop {
 		Resources res=new Resources(loader);
 		
 		Light sun = new Light(new Vector3f(10000, 10000, -10000), new Vector3f(1.3f, 1.3f, 1.3f));
-		Player player = new ExamplePlayer(res.stanfordBunny, new Vector3f(75, 5, 75), 0, 100, 0, 0.6f, 5f, 10f, 5f);
+		Player player = new ExamplePlayer(res.stanfordBunny, new Vector3f(75, 5, 75), 0.6f, 5f, 10f, 5f);
 		Camera camera = new ThirdPersonCamera(player);
 
 		engine=new BaseEngine(loader, player, camera, sun, 1000f);
@@ -42,7 +42,7 @@ public class MainGameLoop {
 		
 		engine.addWater(new WaterTile(75, 75, 0));
 		engine.addEntity(new Entity(res.rocks, new Vector3f(75, 4.6f, 75), 0, 0, 0, 75));
-		engine.addEntity(new Entity(res.pine, new Vector3f(100, 5, 100), 0, 0, 0, 1, 5, 50, 5));
+		engine.addEntity(new Entity(res.pine, new Vector3f(100, 5, 100), 1, 5, 50, 5));
 		
 		gui.addGUIImage("gui/health", -0.8f, 0.9f, 0.2f);
 		
